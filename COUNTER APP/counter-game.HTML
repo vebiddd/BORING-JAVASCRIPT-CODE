@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+        h1{
+            text-align: center;
+            font-size: 11em;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        .butons{
+            text-align: center;
+        }
+
+        .buton1{
+            background-color: black;
+            color: aliceblue;
+            padding: 30px 90px;
+            margin-top: -70px;
+            cursor: pointer;
+            border-radius: 7px;
+            border: solid;
+        }
+
+
+
+    </style>
+
+</head>
+<body>
+
+    <h1 id="myH1">0</h1>
+
+    <div class="butons">
+
+            <button id="minus" class="buton1" >---</button>
+            <button id="reset" class="buton1" >Reset</button>
+            <button id="plus"  class="buton1" >+</button>
+
+    </div>
+
+
+    
+</body>
+
+<script>
+
+   const minus = document.getElementById("minus")
+   const reste = document.getElementById("reset")
+   const plus  = document.getElementById('plus')
+   const myH1  = document.getElementById("myH1")
+   let cont = 0;
+
+    minus.onclick = function(){
+    cont--;
+    myH1.textContent = cont  
+}
+
+    reset.onclick = function(){
+        cont = 0;
+        myH1.textContent = cont
+    }
+
+    plus.onclick = function(){
+        cont++;
+        myH1.textContent = cont
+    }
+  
+
+   
+
+</script>
+
+</html>
