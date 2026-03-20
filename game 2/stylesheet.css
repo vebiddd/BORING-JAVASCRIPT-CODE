@@ -1,0 +1,23 @@
+body {
+    font-family: Verdana;
+    text-align: center;
+}
+
+#myButton{
+    font-size: 25px;
+    padding: 15px 50px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#myLabel1{
+    font-size: 4em;
+}
+
+#myLabel2{
+    font-size: 4em;
+}
+
+#myLabel3{
+    font-size: 4em;
+}
