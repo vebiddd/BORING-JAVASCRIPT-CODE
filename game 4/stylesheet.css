@@ -1,0 +1,94 @@
+body{
+    display: flex;
+    justify-content:center ;
+    box-sizing: border-box;
+    background: #0f172a;
+    color: white;
+    font-family: Arial;
+}
+
+.Game1{
+    margin-top: 120px;
+    background-color: #111e3d;
+    width: 800px;
+    height: 700px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 40px rgb(24, 19, 96);
+}
+
+.myH1 {
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    color: #c5d6ff;
+    margin-bottom: 70px;
+    margin-top: 50px;
+}
+
+
+
+.Buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.Peper{
+    color: #d9e2f9;
+    font-size: 26px;
+    text-align: start;
+    padding: 30px 150px 30px 20px;
+    background-color: #0f172a;
+    border: solid #0f172a;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+
+#Rock{
+    color: #d9e2f9;
+    font-size: 26px;
+    text-align: start;
+    padding: 30px 150px 30px 20px;
+    margin-top: 0px;
+    background-color: #0f172a;
+    border: solid #0f172a;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+
+#Scisors{
+    display: flex;
+    color: #d9e2f9;
+    font-size: 26px;
+    text-align: start;
+    padding: 30px 150px 30px 20px;
+    background-color: #0f172a;
+    border: solid #0f172a;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.Results{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    font-size: 22px;
+}
+
+.BotPoints{
+    display: flex;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.YourPoint{
+    display: flex;
+    justify-content: end;
+    margin-top: -80px;
+    margin-right: 30px;
+}
